@@ -60,7 +60,12 @@ Configuration variables:
     - **rf_status**: Current radio status per module. (90=low, 60=highest)
     - **wifi_status**: Wifi status per Base station
     - **battery_vp**: Current battery status per module.
-
+    - **battery_lvl**: Numeric current battery status per module.
+    - **WindAngle_value**: Numeric Wind angle in degree.
+    - **GustAngle_value**: Numeric Wind gust angle in degree.
+    - **rf_status_lvl**: Numeric current radio status per module.
+    - **wifi_status_lvl**: Numeric wifi status per Base station in dB.
+    
 ### {% linkable_title Find your modules name %}
 
 You can find your modules name in your [online NetAtmo account](https://my.netatmo.com/app/station). These names can be found and changed in parameters. You have to provide these name in your Home Assistant `configuration.yaml` file.
